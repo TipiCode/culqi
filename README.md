@@ -2,10 +2,10 @@
   <img src="https://skyloft.sfo3.cdn.digitaloceanspaces.com/nuget/toolkit-banner.png" alt="Tipi Logo">
 </h1>
 
-[![GitHub license](https://img.shields.io/github/license/TipiCode/recurrente.svg)](https://github.com/TipiCode/recurrente/blob/master/LICENSE)
-[![GitHub release](https://img.shields.io/github/v/release/TipiCode/recurrente.svg)](https://github.com/TipiCode/recurrente/releases)
-[![Nuget package](https://img.shields.io/nuget/dt/Tipi.Tools.Recurrente)](https://img.shields.io/nuget/dt/Tipi.Tools.Recurrente)
-[![Nuget package](https://img.shields.io/nuget/v/Tipi.Tools.Recurrente)](https://img.shields.io/nuget/v/Tipi.Tools.Recurrente)
+[![GitHub license](https://img.shields.io/github/license/TipiCode/culqi.svg)](https://github.com/TipiCode/culqi/blob/master/LICENSE)
+[![GitHub release](https://img.shields.io/github/v/release/TipiCode/culqi.svg)](https://github.com/TipiCode/culqi/releases)
+[![Nuget package](https://img.shields.io/nuget/dt/Tipi.Tools.Culqi)](https://img.shields.io/nuget/dt/Tipi.Tools.Culqi)
+[![Nuget package](https://img.shields.io/nuget/v/Tipi.Tools.Culqi)](https://img.shields.io/nuget/v/Tipi.Tools.Culqi)
 
 This handler is part of a series of Toolkits developed to interface with ASP.NET Core classes in order to reduce codebase.
 
@@ -29,4 +29,4 @@ In order to run this project you will need the SDK for [.NET Core 6](https://dot
 <h1></h1>
 
 ### ⬇️ Releases
-- [NuGet](https://www.nuget.org/packages/Tipi.Tools.Recurrente/)
+- [NuGet](https://www.nuget.org/packages/Tipi.Tools.Culqi/)
