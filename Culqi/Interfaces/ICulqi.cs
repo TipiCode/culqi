@@ -1,4 +1,5 @@
 ﻿
+using Tipi.Tools.Http.Responses;
 using Tipi.Tools.Payments.Models;
 
 namespace Tipi.Tools.Payments.Interfaces
@@ -23,6 +24,6 @@ namespace Tipi.Tools.Payments.Interfaces
         /// <returns>
         /// Returns a <c>String</c> containing the payment result.
         /// </returns>
-        Task<dynamic> CreateSinglePaymentAsync(CulqiTokenModel request);
+        Task<HttpResponse> CreateSinglePaymentAsync(CulqiTokenModel request);
     }
 }

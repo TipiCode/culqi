@@ -3,6 +3,7 @@ using Tipi.Tools.Payments.Config;
 using Tipi.Tools.Payments.Interfaces;
 using Tipi.Tools.Http;
 using Tipi.Tools.Payments.Models;
+using Tipi.Tools.Http.Responses;
 
 namespace Tipi.Tools.Payments
 {
@@ -21,14 +22,14 @@ namespace Tipi.Tools.Payments
             _sKey = options.SecretKey;
         }
 
-        public async Task<dynamic> CreateSinglePaymentAsync(CulqiTokenModel culqiRequest)
+        public async Task<HttpResponse> CreateSinglePaymentAsync(CulqiTokenModel culqiRequest)
         {
             try
             {
                 string key = _sKey;
                 var testObject = new { amount = culqiRequest.Amount, currency_code = culqiRequest.CurrencyCode, email = culqiRequest.Email, source_id = culqiRequest.Id };
                 var request = new HttpRequestHandler(key);
-                var response = await request.ExecuteAsync("POST", Constants.ApiEndpoint, JsonConvert.SerializeObject(testObject));
+                HttpResponse response = await request.ExecuteAsync("POST", Constants.ApiEndpoint, JsonConvert.SerializeObject(testObject));
 
                 return response;
             }
